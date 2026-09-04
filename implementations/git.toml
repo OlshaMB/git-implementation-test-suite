@@ -1,0 +1,9 @@
+name = "canonical-git"
+command = ["python3", "wrappers/git.py"]
+working_directory = ".."
+timeout_seconds = 120
+
+[capabilities]
+sha1 = true
+delta_disable = true
+offset_deltas = true

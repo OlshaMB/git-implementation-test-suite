@@ -1,0 +1,15 @@
+version = 1
+
+[corpus]
+name = "linux-v6.12"
+url = "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git"
+ref = "refs/tags/v6.12"
+commit = "adc218676eef25575469234709c2d87185ca223a"
+
+[sample]
+seed = "packtest-linux-v6.12-v1"
+blobs = 2048
+
+[expectations]
+sample_delta_required = false
+full_delta_required = true
